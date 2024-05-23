@@ -10,6 +10,6 @@ public class TopmostUI : MonoBehaviour
 
     private void Update()
     {
-        _ownedMoney.text = "Money: " + _playerData.money;
+        _ownedMoney.text = "Money: " + _playerData.money.ToString("0.##E+0");
     }
 }
